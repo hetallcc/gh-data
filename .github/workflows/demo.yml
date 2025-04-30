@@ -28,7 +28,7 @@ jobs:
       - name: Upload build artifacts
         uses: actions/upload-artifact@v3
         with:
-          name: build //this is for additonal configration
+          name: dist-files
           path: |
             dist
             package.json
